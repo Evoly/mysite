@@ -1,0 +1,353 @@
+body {
+    background-color: #F0F2F2;    
+    padding-top: 70px;
+}
+.navbar-default .navbar-nav > li > a {
+    font-weight: bold;
+    color: rgba(37, 47, 71, 0.7);
+    font-size: 1.6rem;  
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: rgba(37, 47, 71, 1); 
+}
+.navbar-default {
+    font-weight: bold;      
+    border: 0.5px solid #EDF0F0;  
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 20%, rgba(235,243,247,1) 75%); 
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 20%,rgba(235,243,247,1) 75%); 
+    background: linear-gradient(to top, rgba(255,255,255,1) 20%,rgba(235,243,247,1) 75%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}   
+
+.navbar-default .navbar-brand {
+  padding-top: 5px;
+  width: 200px;
+  color: rgba(37, 48, 77, 0.8);
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover ,
+.dropdown-menu > li > a:hover{
+        background-image: none;
+        background-color: rgb(235,243,247);
+        color: rgba(37, 47, 71, 0.7);        
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(37, 48, 77, 0.8);
+    
+}
+.navbar-default .navbar-toggle {
+    border-color: rgba(37, 48, 77, 0.8);
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.jumbotron {
+    background: url('../images/cursos-de-verano.jpg') no-repeat;
+   
+   
+}
+.container .jumbotron {
+     border-radius: 0;
+     border: 0.5px solid #EDF0F0; 
+     margin: 30px -15px 30px -15px;
+     font-weight: bold;
+      }
+
+.container .jumbotron h1 {     
+    font-size: 4.5rem;
+    font-style: italic;
+    font-weight: 600;
+    color: #F5F8FA; 
+    text-shadow: #fff -0.5px -0.5px 0, #333 0.5px 0.5px 0;
+    line-height: 1.2;
+}
+
+.container .jumbotron p {
+     padding-top: 20px;
+     font-weight: 600;
+     padding-left: 30px;
+ }
+
+
+div .white-block {
+    background-color: #fff;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 0.5px solid #EDF0F0;  
+    margin-bottom: 30px; 
+    min-height: 60vh;
+}
+
+.myimg {
+    max-width: 30%;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.white-block p {
+    font-size: 1.6rem;
+}
+
+.h_3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#comment {
+    background-color: #fff;
+    padding: 1% 0 1% 0;
+    border: 0.5px solid #EDF0F0;     
+}
+
+#comment h2 {
+  padding-bottom: 10px;
+}
+
+blockquote {
+    border-left: 5px solid #CFD1D1;
+    text-indent: 30px;
+    font-size: 1.7rem;
+}
+blockquote footer {
+  padding-top: 5px;
+}
+
+#footer {
+    margin-top: 30px;
+    background-color: rgba(227, 232, 232, 0.5);
+    height: 15%;
+    padding-top: 20px;
+    color: #222B45;  
+    border-top: 0.3px solid rgba(227, 232, 232, 0.8);
+    text-shadow: 0.5px 0.5px white;
+    -webkit-box-shadow: inset 0 1px 0 rgba(227, 232, 232, 0.7),
+        0 1px 5px rgba(255,255,255,.15);
+    box-shadow: inset 0 1px 0 rgba(227, 232, 232, 0.7) ,
+    0 1px 5px rgba(255,255,255,.15); 
+}
+
+.footer {
+   padding: 1% 0 2% 0;
+}
+
+.order {
+    margin-top: 15%;
+}
+.footer a:focus,.footer a:hover {
+    text-decoration: none;
+    color: #3F7BBF;    
+}
+
+.footer a {
+    color: #222B45;
+}
+
+/* list for deal.html*/
+ol {
+list-style: none; 
+counter-reset: li; 
+padding: 2%;
+}
+ol li:before {
+counter-increment: li ; 
+content: counters(li,".") ". "; 
+}
+
+.white-block .lang {
+    padding: 2% 0 2% 4%;
+}
+.lang div:nth-child(n+4) {
+    margin-top: 2%;
+}
+
+.btn-primary {
+    font-size: 1.6em;
+
+}
+
+div .price {    
+    padding-top: 10px;
+}
+
+.price p {
+    padding-right: 1%;
+}
+ 
+.price p,  .white-block div div p {
+    text-indent: 25px;
+}
+
+
+table {
+     width: 100%;
+     line-height: 1.2;
+     margin: auto;
+     font-size: 90%;
+     font-weight: bold;
+     overflow: auto;
+     display: inline-block;
+ }
+
+.price th, td:first-child  {
+    background: rgba(141, 180, 214, 0.3);
+    padding: 10px 20px;
+    font-size: 110%;
+    border-style: solid;
+    border-width: 1px 2px 2px 1px;
+    border-color: #FFF;
+    text-align: center;
+}
+
+tr th:first-child {
+    border-radius: 10px 0 0 0 ;
+   
+}
+
+th:last-child {
+    border-radius: 0 10px 0 0 ;
+}
+
+td {
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    border-color: #FFF;
+    text-align: center;
+    background: rgba(141, 180, 214, 0.2);
+    padding: 10px 10px;
+}
+
+td:nth-child(n+4), .price th {
+    line-height: 1.6;
+}
+     
+.price-list {
+    text-indent: 35px;    
+    font-size: 1.2em;
+    list-style: none;
+    line-height: 1.7;
+}
+
+.price-list h3 {
+    font-style: italic;
+    text-indent: 60px; 
+    margin-top: 50px;
+}
+.price-list span { 
+  color: rgba(129, 174, 214, 0.9); 
+}
+
+.white-block div h2 {
+    padding-bottom: 5px;
+}
+
+div p:first-child {
+    margin-top: 2%;
+}
+
+p, address {
+    line-height: 1.8;
+}
+
+.white-block div div {
+    padding: 0% 3% 1% 3%;
+}
+
+p:nth-child(4) , p:nth-child(5), p ul li a {
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+
+/* faq*/
+
+label {
+  margin-bottom: 10px;
+  color: #4B5470;
+}
+label:hover {
+  color: #070708;
+}
+
+li span {
+  font-weight: bold;
+}
+
+/* скрываем чекбоксы и блоки с содержанием */
+.hide, .hide + label ~ div {
+    display: none; 
+}
+/* вид текста label */
+.hide + label,
+.hide:checked + label {
+    padding: 0;
+    cursor: pointer;
+    display: block;
+    
+}
+/* вид текста label активном переключателе */
+.hide:checked + label {
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    background:  rgba(235,243,247,0.3);
+    border: 0.5px solid rgba(235,243,247,0.5);
+    border-radius: 10px;
+    margin: 10px 0 20px 20px;    
+    padding: 10px;
+/* анимации при появлении */
+    -webkit-animation:fade ease-in 0.3s; 
+    -moz-animation:fade ease-in 0.3s;
+    animation:fade ease-in 0.3s; 
+}
+
+/* анимация при появлении скрытых блоков */
+@-moz-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }   
+}
+.hide + label:before {
+  background-color: #6C8CAD;
+  color: #fff;
+  content: "+";
+  display: block;
+  float: left;
+  font-size: 14px; 
+  font-weight: bold;
+  height: 15px;
+  line-height: 14px;
+  margin: 1px 5px 0px;
+  text-align: center;
+  width: 16px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.hide:checked + label:before {
+  content: "\2212";
+}
+
+
