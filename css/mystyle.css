@@ -82,10 +82,11 @@ div .white-block {
     padding-bottom: 1%;
     border: 0.5px solid #EDF0F0;  
     margin-bottom: 30px; 
+    min-height: 60vh;
 }
 
 .myimg {
-    width: 30%;
+    max-width: 30%;
 }
 
 h1 {
