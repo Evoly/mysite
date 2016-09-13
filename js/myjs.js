@@ -1,7 +1,7 @@
+
 $(document).ready(function() {
-            
-            
-    
+
+	   
     $(window).resize(function() {
           
         var screenWidth = window.innerWidth;
@@ -11,10 +11,18 @@ $(document).ready(function() {
        }
     else $(".order").removeClass('btn-block')
 
-    });
-
-    
+    });    
 
 });
 
+
+
+$('btn-default').click(function(){
+		$('thanks-page').css('display','block');
+		
+	});
+
+
+
+//$('#myModal').modal('show');
 

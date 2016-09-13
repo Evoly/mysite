@@ -36,14 +36,17 @@ while(file_exists($upload_filename = $upload_dir . $now . '-' . $_FILES[$file_na
 //echo $name;
 
 @move_uploaded_file($_FILES[$file_name]['tmp_name'], $upload_filename)
-or handle_error("возникла проблема при сохранении Вашего изображения в его постоянном месте <br>",
+or handle_error("возникла проблема при сохранении файла в его постоянном месте <br>",
 "ошибка, связанная с правами доступа при перемещении файла в {$upload_filename}");
 
 $insert_sql = "INSERT INTO users SET users_file='$upload_filename' , date='$date',name = '$name' , email = '$email', comment = '$comment' ";
 mysql_query($insert_sql);
 
-include 'redirect.html'
-
+header('Location: index.html');
 
 
 ?>
+
+ 
+
+
